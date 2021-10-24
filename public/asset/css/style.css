@@ -439,6 +439,12 @@ body {
 }
 
 /* now, make it responsive design */
+@media (max-width: 1024px) {
+    .cardBox {
+        grid-template-columns: repeat(2, 2fr);
+    }
+}
+
 @media (max-width: 991px) {
     .navigation {
         left: -300px;
